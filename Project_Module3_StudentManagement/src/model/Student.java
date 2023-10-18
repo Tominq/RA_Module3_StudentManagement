@@ -70,6 +70,8 @@ public class Student implements Serializable{
         this.gender = gender;
     }
 
+
+
     public float getSubjectScore1() {
         return subjectScore1;
     }
@@ -108,6 +110,8 @@ public class Student implements Serializable{
                 '}';
     }
 
+
+    //TODO: what if another people handle feature add property score3, are they remember to compare in equals and hashcode
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

@@ -98,6 +98,8 @@ public class StudentManagementView extends JFrame {
 	 * 
 	 */
 	public StudentManagementView() {
+		//TODO: the function is too long and hard for another people to find exactly where to maintain
+
 		this.model = new StudentManagementModel();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 604, 630);

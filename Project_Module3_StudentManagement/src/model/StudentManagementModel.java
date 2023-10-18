@@ -57,6 +57,7 @@ public class StudentManagementModel {
 	}
 
 	public boolean checkExist(Student student) {
+		//TODO: what if student array extend to 10 000 students, for loop will too slow as O(n), are there any way to solve
 		for (Student st : studentsList) {
 			if(st.getStudentID()== student.getStudentID()) {
 				return true;
